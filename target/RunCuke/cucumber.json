@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8603190800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should search product and adding to cart page successfully",
+        "description": "",
+        "id": "homepage-search;user-should-search-product-and-adding-to-cart-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 187000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174725600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "MyStepdefs.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183035500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Displays seven popular products by default in home page",
+            "match": {
+              "location": "MyStepdefs.displays_seven_popular_products_by_default_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128984800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter text Blouse in the search box",
+            "match": {
+              "location": "MyStepdefs.iEnterTextBlouseInTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1167375100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on search button",
+            "match": {
+              "location": "MyStepdefs.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249286800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify text \"Blouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blouse",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs.iShouldVerifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "homepage search",
+    "description": "\r\nAs a User I want to check homepage Search Result Using Different DataSet",
+    "id": "homepage-search",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
